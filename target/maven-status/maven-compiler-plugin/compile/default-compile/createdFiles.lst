@@ -1,0 +1,11 @@
+com\spring\uniteAll\model\User.class
+com\spring\uniteAll\Dao\BlogDAO.class
+com\spring\uniteAll\model\Blog.class
+com\spring\uniteAll\config\ApplicationContextConfig.class
+com\spring\uniteAll\Dao\UserDAOImpl.class
+com\spring\uniteAll\Dao\BlogDAOImpl.class
+com\spring\uniteAll\Dao\ForumDAO.class
+com\spring\uniteAll\Dao\UserDAO.class
+com\spring\uniteAll\Dao\ForumDAOImpl.class
+com\spring\uniteAll\model\Forum.class
+com\spring\uniteAll\model\Job.class

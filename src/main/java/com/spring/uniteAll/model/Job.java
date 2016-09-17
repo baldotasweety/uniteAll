@@ -1,0 +1,62 @@
+package com.spring.uniteAll.model;
+
+import java.util.Date;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+import org.springframework.stereotype.Component;
+
+
+@Entity
+@Table(name = "job")
+@Component
+public class Job {
+
+	public int job_id;
+	private User user;
+	public String job_desc;
+	public String req;
+	public Date creation;
+	public String comp_name;
+	public int getJob_id() {
+		return job_id;
+	}
+	public void setJob_id(int job_id) {
+		this.job_id = job_id;
+	}
+	public User getUser() {
+		return user;
+	}
+	public void setUser(User user) {
+		this.user = user;
+	}
+	public String getJob_desc() {
+		return job_desc;
+	}
+	public void setJob_desc(String job_desc) {
+		this.job_desc = job_desc;
+	}
+	public String getReq() {
+		return req;
+	}
+	public void setReq(String req) {
+		this.req = req;
+	}
+	public Date getCreation() {
+		return creation;
+	}
+	public void setCreation(Date creation) {
+		this.creation = creation;
+	}
+	public String getComp_name() {
+		return comp_name;
+	}
+	public void setComp_name(String comp_name) {
+		this.comp_name = comp_name;
+	}
+	
+	
+	
+	
+}
